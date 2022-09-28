@@ -1,0 +1,4 @@
+1.0.1:
+    - First version of Multisite
+    - create_settings_table.php
+    - multisite_migrate.php
