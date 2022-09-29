@@ -1,4 +1,4 @@
-<?php namespace IceCollection\Multisite;
+<?php namespace IceCollection\Multisite\Models;
 
 use System\Classes\PluginBase;
 use IceCollection\Multisite\Models\Setting;
