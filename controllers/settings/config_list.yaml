@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/keios/multisite/models/setting/columns.yaml
+list: $/icecollection/multisite/models/setting/columns.yaml
 
 # Model Class name
-modelClass: Keios\Multisite\Models\Setting
+modelClass: icecollection\Multisite\Models\Setting
 
 # List Title
-title: keios.multisite::details.description2
+title: icecollection.multisite::details.description2
 
 # Link URL for each record
-recordUrl: keios/multisite/settings/update/:id
+recordUrl: icecollection/multisite/settings/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

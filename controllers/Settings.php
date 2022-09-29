@@ -1,4 +1,4 @@
-<?php namespace IceCollerction\Multisite\Controllers;
+<?php namespace IceCollection\Multisite\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;

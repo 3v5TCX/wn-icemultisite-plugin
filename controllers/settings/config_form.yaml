@@ -6,22 +6,22 @@
 name: Setting
 
 # Model Form Field configuration
-form: $/keios/multisite/models/setting/fields.yaml
+form: $/icecollection/multisite/models/setting/fields.yaml
 
 # Model Class name
-modelClass: Keios\Multisite\Models\Setting
+modelClass: IceCollection\Multisite\Models\Setting
 
 # Default redirect location
-defaultRedirect: keios/multisite/settings
+defaultRedirect: IceCollection/multisite/settings
 
 # Create page
 create:
-    title: keios.multisite::lang.controller.create
-    redirect: keios/multisite/settings/update/:id
-    redirectClose: keios/multisite/settings
+    title: icecollection.multisite::lang.controller.create
+    redirect: icecollection/multisite/settings/update/:id
+    redirectClose: icecollection/multisite/settings
 
 # Update page
 update:
-    title: keios.multisite::lang.controller.create
-    redirect: keios/multisite/settings
-    redirectClose: keios/multisite/settings
+    title: icecollection.multisite::lang.controller.create
+    redirect: icecollection/multisite/settings
+    redirectClose: icecollection/multisite/settings
