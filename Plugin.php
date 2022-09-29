@@ -1,7 +1,7 @@
 <?php namespace IceCollection\Multisite;
 
 use System\Classes\PluginBase;
-use IceCollerction\Multisite\Models\Setting;
+use IceCollection\Multisite\Models\Setting;
 use BackendAuth;
 use Backend;
 use Config;
