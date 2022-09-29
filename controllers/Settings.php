@@ -3,7 +3,7 @@
 use BackendMenu;
 use Backend\Classes\Controller;
 use System\Classes\SettingsManager;
-use IceCollerction\Multisite\Models\Setting;
+use IceCollection\Multisite\Models\Setting;
 use Cache;
 use Flash;
 use Lang;
