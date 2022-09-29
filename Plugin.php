@@ -69,17 +69,12 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-
         $backendUri = Config::get('cms.backendUri');
         $requestUrl = Request::url();
         $currentHostUrl = Request::getHost();
-        //$currentTheme = Setting::getTheme($currentHostUrl);
+        $currentTheme = Setting::getTheme($currentHostUrl);
 
-        //dd($currentTheme);
-
-//        Theme::setActiveTheme($currentTheme);
-
-
+        Theme::setActiveTheme($currentTheme);
 
 //        $backendUri = Config::get('cms.backendUri');
 //        $requestUrl = Request::url();

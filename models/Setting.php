@@ -103,7 +103,7 @@ class Setting extends Model
         return $cacheableRecords;
     }
 
-    /*
+
     public static function getTheme(string $url):string
     {
         $theme = Setting::where('domain', $url)->first();
